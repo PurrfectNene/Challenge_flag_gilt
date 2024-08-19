@@ -1,36 +1,36 @@
-CHALLENGE FLAG GILT
+# CHALLENGE FLAG GILT
 
 This script fetches a hidden flag through paginated API requests using cursors.
 
-SETUP
+## SETUP
 
-Clone the repo:
+### Clone the repo:
 
 - git clone https://github.com/PurrfectNene/Challenge_flag_gilt.git
 - cd Challenge_flag_gilt
 
-INSTALL DEPENDENCIES:
+## INSTALL DEPENDENCIES:
 
 - npm i axios
 - npm i dotenv
 
-SETUP:
+## TOKEN:
 
-Create a .env file in the project root with the following content:
+### Create a .env file in the project root with the following content:
 
-TOKEN=your_api_token_here
+**TOKEN**=*<your_api_token_here>*
 
-USAGE:
+## USAGE:
 
-Run the script with:
+### Run the script with:
 
 node Challenge.js
 
-CONFIGURATION:
+## CONFIGURATION:
 
 - API Endpoint: https://flag-gilt.vercel.app/api/challenge
 - Authorization: Uses bearer token from .env file.
 
-LICENSE: 
+## LICENSE: 
 
 MIT License. See LICENSE.
